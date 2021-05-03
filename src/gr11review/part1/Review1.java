@@ -19,6 +19,8 @@ public class Review1{
     System.out.print("Enter the day number: ");
     intDay = Integer.parseInt(key.readLine());
 
+
+    // for loop that add the number of days in each month that passes
     for (int intCount = 1; intCount < intMonth; intCount++) {
       if (intCount == 2) {
         intNumDays += 28;
@@ -30,7 +32,8 @@ public class Review1{
         intNumDays += 31;
       }
     }
-
+    
+    // Output the number of days
     System.out.println(intNumDays + intDay);
   }
 }
