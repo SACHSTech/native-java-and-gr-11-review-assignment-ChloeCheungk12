@@ -40,3 +40,13 @@ public class Review7{
             strDashes += "-";
         }
     }
+
+    // Output to screen
+    System.out.println("There are " + intCharCount + " characters in the sentence.");
+    System.out.println("There are " + intSpaceCount + " spaces in the sentence.");
+    System.out.println("There are " + intNumOfA + " letter a in the sentence.");
+    System.out.println(strDashes);
+    
+    }
+}
+
