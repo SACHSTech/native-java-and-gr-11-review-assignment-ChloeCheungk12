@@ -11,6 +11,7 @@ import java.io.*;
 
 public class Review2{
     public static void main(String[] args) throws IOException{
+        // Buffered Reader
         BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
         
         // Declare Variables
