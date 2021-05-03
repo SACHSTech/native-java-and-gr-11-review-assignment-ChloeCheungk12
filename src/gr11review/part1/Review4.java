@@ -3,7 +3,16 @@ package gr11review.part1;
 import java.io.*;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
- 
+
+
+/**
+* a program that asks the user how many items he/she would like to purchase. 
+* The program then gets the prices for the items one by one. 
+* At the end of entering items, prints out the total, the tax (13%) and the grand total.
+* @author: Chloe Cheung
+*
+*/
+
 public class Review4{
   public static void main(String[] args) throws IOException{
     // buffered reader

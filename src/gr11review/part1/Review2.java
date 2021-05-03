@@ -1,7 +1,14 @@
 package gr11review.part1;
- 
+
 import java.io.*;
  
+/**
+* Aprogram that prints out a statement of options. 
+* Allows the user to select an option and react appropriately to the option selection using a switch case structure.
+* @author: Chloe Cheung
+*
+*/
+
 public class Review2{
     public static void main(String[] args) throws IOException{
         BufferedReader key = new BufferedReader(new InputStreamReader(System.in));

@@ -2,6 +2,19 @@ package gr11review.part1;
  
 import java.io.*;
  
+
+/**
+* A program that will input a sentence from the user and store it in a String variable called theSentence. 
+* Uses the String methods to compute the following about the sentence.
+Stats about the sentence:
+* There are # characters in the sentence.
+* There are # spaces in the sentence.
+* There are # letter a in the sentence.
+* Taking the odd numbered characters in the sentence produces the following string “---------“
+* @author: Chloe Cheung
+*
+*/
+
 public class Review7{
   public static void main(String[] args) throws IOException{
     // Buffered Reader

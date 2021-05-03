@@ -1,6 +1,13 @@
 package gr11review.part1;
 import java.io.*;
 
+/**
+* A program that asks the user to enter a month number (1 = January, 2 = February etc.) and day and then 
+* prints the day of the year. Assumes that it is not a leap year.
+* @author: Chloe Cheung
+*
+*/
+
 public class Review1{
   public static void main(String[] args) throws IOException{
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));

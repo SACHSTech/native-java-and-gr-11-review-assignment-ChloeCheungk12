@@ -1,8 +1,14 @@
 package gr11review.part1;
 
 import java.io.*;
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
+
+/**
+* a program that prompts for a `yearly_amount`, annual `compound_interest_rate`, and outputs the number of years .  
+* For compound interest, the interest rate is applied to the existing amount after each year.  
+* @author: Chloe Cheung
+*
+*/
+
 
 public class Review5{
   public static void main(String[] args) throws IOException{
