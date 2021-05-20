@@ -65,7 +65,7 @@ In the second year another $100.00 is invested for a total of $202.50, and the i
 ### Review6.java - Iteration - while loop 2
 Create a cash register program similar to the one above, except instead of prompting for the number items, the user is able to keep entering item prices until the enter 0.  Import and use the `java.text.DecimalFormat` class to output the information in currency format (0.00)
 
-#### Sample Run
+#### Sample Run5
 ```
 Enter the price for item 1: 2.50
 Enter the price for item 2: 3.99
